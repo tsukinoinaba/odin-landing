@@ -129,6 +129,27 @@ button {
   font-size: 18px;
 }
 
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 545px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-owner {
+  text-align: right;
+  font-weight: bold;
+  font-size: 22px;
+  margin-right: 30px;
+}
+
 .banner button {
   border: 1px solid #F9FAF8;
 }
