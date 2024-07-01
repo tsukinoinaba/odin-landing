@@ -51,11 +51,12 @@ a,
   justify-content: space-between;
   align-items: center;
   flex-grow: 1;
-  padding: 350px;
+  padding: 200px 350px;
 }
 
 .hero-container {
   flex-basis: 500px;
+  flex-shrink: 1;
 }
 
 .hero-main-text {
@@ -88,10 +89,44 @@ button {
   flex-shrink: 0;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 0 128px 0;
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin-bottom: 64px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.info-item img,
+.caption {
+  width: 180px;
+}
+
 .info-item img {
-  height: 200px;
-  width: 200px;
+  box-sizing: border-box;
+  height: 180px;
   object-fit: cover;
+  border: 4px solid #3882F6;
+  border-radius: 10px;
+}
+
+.caption {
+  text-align: center;
+  color: #505050;
+  font-size: 18px;
 }
 
 .banner button {
